@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/hrro.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/keyframes.css">
+  <link rel="stylesheet" href="./css/media-query-for-tablet.css">
+  <link rel="stylesheet" href="./css/media-query-for-desktop.css">
+  <title>Harsh Surani</title>
+  <style>
+      @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+p {
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: .05rem;
+}
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.section-title span {
+	color: crimson;
+}
+
+.cta {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	margin-top: 30px;
+	transition: .3s ease;
+	transition-property: background-color, color;
+}
+.cta:hover {
+	color: white;
+	background-color: crimson;
+}
+.brand h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: white;
+}
+.brand h1 span {
+	color: crimson;
+}
+  </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero">
+              <h1><span>S</span>urani <span>H</span>arsh</h1>
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Harsh Surani <span></span></h1>
+        <!-- <a href="#projects" type="button" class="cta">Portfolio</a> -->
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+   <!-- About Section -->
+   <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./css/img/img-2.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>My name is Harsh Suarni</h2>
+        <p>Hello, I am a Cyber Security Engineer and, <br>  Ethical H4cker.
+          I also know Python, <br> Java,JavaScript,C,C++ <br>
+          and I am a Student of Engineering. <br>
+          </p>
+        <!-- <a href="#" class="cta">Download Resume</a> -->
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+          <div>
+            <h1 class="section-title">Contact <span>info</span></h1>
+          </div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+              <div class="contact-info">
+                <h1>Email</h1>
+                <h2>harshsurani00@gmail.com</h2>
+                <!-- <h2>abcd@gmail.com</h2> -->
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+              <div class="contact-info">
+                <h1>Address</h1>
+                <h2>India, Gujrat, Amreli,<br> Keriya-nagaas</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    
+      <!-- Footer -->
+      <section id="footer">
+        <div class="footer container">
+          <div class="brand">
+            <h1><span>S</span>urani <span>H</span>arsh</h1>
+          </div>
+          <h2>Thanks For visit</h2>
+          <p>Copyright © 2020 Surani. All rights reserved</p>
+        </div>
+      </section>
+      <!-- End Footer -->
+      <script src="./js/app.js"></script>
+    </body>
+    
+    </html>
